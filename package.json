@@ -1,0 +1,50 @@
+{
+  "name": "sui-editable-table",
+  "version": "0.0.1",
+  "description": "Multi-row editable table using semantic-ui with redux",
+  "main": "build/SuiEditableTable.js",
+  "jsnext:main": "src/SuiEditableTable.js",
+  "scripts": {
+    "bundle": "cross-env NODE_ENV=release babel ./src --out-dir ./build",
+    "test": "echo 'Error: no tests' && exit 1"
+  },
+  "files": [
+    "build",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godspeed20/sui-editable-table.git"
+  },
+  "keywords": [
+    "semantic-ui",
+    "sui",
+    "table",
+    "editable",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "godspeed20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godspeed20/sui-editable-table/issues"
+  },
+  "homepage": "https://github.com/godspeed20/sui-editable-table",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "semantic-ui-react": "^0.67.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "cross-env": "^3.1.4"
+  }
+}
